@@ -6,4 +6,5 @@ author:
 description: "Digital Rain Project Blog."
 
 # Build settings
+remote_theme: jekyll-theme-midnight
 
