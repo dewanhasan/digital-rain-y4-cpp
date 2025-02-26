@@ -6,5 +6,5 @@ author:
 description: "Digital Rain Project Blog."
 
 # Build settings
-remote_theme: "mmistakes/minimal-mistakes"
+remote_theme: jekyll/minima
 
