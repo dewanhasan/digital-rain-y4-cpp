@@ -1,13 +1,9 @@
 ---
-layout: post
-title: A Project in Modern C++
-tags: cpp coding project
-categories: demo
+Name: Dewan Hasan
+id: g00410156
 ---
 
-This is my first paragraph...
-
-## This is a Heading
+## Digital Rain C++ Project
 
 This is a paragraph. Add an empty line to start a new paragraph.
 
