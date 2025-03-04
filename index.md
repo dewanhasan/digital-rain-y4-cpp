@@ -17,3 +17,20 @@ In my initial In my initial attempt at the Digital Rain simulation, I created a 
 ### **Log 2: Structuring the Digital Rain Simulation**
 
 In this iteration, we restructured the Digital Rain simulation to follow modern C++ principles, ensuring modularity, maintainability, and efficiency. The project now consists of multiple components, each handling a specific aspect of the simulation:
+
+1. DigitalRain Class
+   - Manages the **overall simulation**, handling multiple rain streams and rendering them in the console.
+   - Uses `GotoXY()` to control cursor positioning for smooth display updates.
+   - Calls `generateRain()` to continuously update and display the animation.
+  
+     
+2. RainDrop Class:
+   - Represents an **individual rain stream**, tracking its position and movement.
+   - Implements a `fall()` function to simulate downward motion.
+   - Uses `get()` to return the current rain characters (`0` or `1`), allowing `DigitalRain` to render them.
+
+3. Test Class:
+   - A placeholder for **future debugging and validation** .
+   - Can be expanded to include performance tests and rendering accuracy checks.
+
+By adopting modern C++ features such as **modular design, efficient console manipulation, and structured class interactions, this update enhances the project's **scalability and flexibility**. The next step involves refining the animation, optimizing performance, and exploring color effects and customizable character sets.
