@@ -5,19 +5,9 @@ id: g00410156
 
 ## Digital Rain C++ Project
 
-This is a paragraph. Add an empty line to start a new paragraph.
-
-Font can be *Italic* or **Bold**.
-
-Code can be highlighted with 'backticks'.
+This project aims to recreate the Matrix-style digital rain effect in a modern C++ console application. Using object-oriented programming (OOP), we structure the simulation into modular components: DigitalRain controls the animation, while RainDrop manages individual falling elements. The simulation features smooth animations, randomized movement, and scalable design, utilizing multi-threading and efficient console rendering. This documentation provides insights into the implementation, functionality, and potential improvements.
 
 Hyperlinks look like this: [GitHub Help](https://help.github.com/).
-
-A bullet list:
-
-- vectors
-- algorithms
-- iterators
 
 You can add an impage that has been uploaded to the repository in a /docs/assets/images folder.
 
