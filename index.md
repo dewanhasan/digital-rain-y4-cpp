@@ -33,4 +33,8 @@ In this iteration, we restructured the Digital Rain simulation to follow modern 
    - A placeholder for **future debugging and validation** .
    - Can be expanded to include performance tests and rendering accuracy checks.
 
-By adopting modern C++ features such as **modular design, efficient console manipulation, and structured class interactions, this update enhances the project's **scalability and flexibility**. The next step involves refining the animation, optimizing performance, and exploring color effects and customizable character sets.
+Each class has its own header (.h) and implementation (.cpp) files, ensuring proper encapsulation and separation of concerns. This makes the project scalable and easier to maintain.
+  
+However, the initial implementation didn't work as expected. The numbers were falling downwards, but they kept stacking up instead of creating a continuous rain effect. This happened because I forgot to clear the screen between frames. To fix this, I added **system("cls");** at the beginning of the loop to clear the console before redrawing the characters. This simple change allowed the animation to refresh properly and create the desired falling effect.
+
+By adopting modern C++ features such as modular design, efficient console manipulation, and structured class interactions, this update enhances the project's **scalability and flexibility**. The next step involves refining the animation, optimizing performance, and exploring color effects and customizable character sets.
