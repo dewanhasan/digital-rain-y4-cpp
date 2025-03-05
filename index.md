@@ -39,4 +39,8 @@ However, the initial implementation didn't work as expected. The numbers were fa
 
 <img src="https://github.com/dewanhasan/digital-rain-y4-cpp/blob/main/docs/assets/images/Log2a.png?raw=true" width="400" height="300">
 
+<img src="https://github.com/dewanhasan/digital-rain-y4-cpp/blob/main/docs/assets/images/Log2b.png?raw=true" width="400" height="300">
+
+
+
 By adopting modern C++ features such as modular design, efficient console manipulation, and structured class interactions, this update enhances the project's **scalability and flexibility**. The next step involves refining the animation, optimizing performance, and exploring color effects and customizable character sets.
