@@ -72,8 +72,8 @@ In this stage of development, two key enhancements were made to improve code cla
 
 While functional, this approach made the code harder to understand and modify. To improve readability and future flexibility, this was replaced with clearly defined const char[] arrays:
 
-  - FULL_CHAR_SET[] – Includes numbers, letters, and symbols.
-  - SYMBOL_CHAR_SET[] – Contains symbols and special characters only, including currency signs.
+  - **FULL_CHAR_SET[]** – Includes numbers, letters, and symbols.
+  - **SYMBOL_CHAR_SET[]** – Contains symbols and special characters only, including currency signs.
     <img src="https://github.com/dewanhasan/digital-rain-y4-cpp/blob/main/docs/assets/images/Log4b.png?raw=true" width="400" height="300">
   - Binary theme (0 and 1) is handled separately using a simple ternary operation.
     
