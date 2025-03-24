@@ -74,11 +74,14 @@ While functional, this approach made the code harder to understand and modify. T
 
   - FULL_CHAR_SET[] – Includes numbers, letters, and symbols.
   - SYMBOL_CHAR_SET[] – Contains symbols and special characters only, including currency signs.
+    <img src="https://github.com/dewanhasan/digital-rain-y4-cpp/blob/main/docs/assets/images/Log4b.png?raw=true" width="400" height="300">
   - Binary theme (0 and 1) is handled separately using a simple ternary operation.
     
 These changes eliminate "magic numbers" and allow each theme to use a dedicated and understandable character set.
 
 A theme selection menu was introduced to enhance user experience and provide visual variety. On program start, the following menu appears:
+
+<img src="https://github.com/dewanhasan/digital-rain-y4-cpp/blob/main/docs/assets/images/Log4a.png?raw=true" width="400" height="300">
 
 Once a theme is selected, the screen is cleared and the corresponding rain animation begins.
 
