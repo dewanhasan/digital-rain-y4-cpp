@@ -66,5 +66,40 @@ To eliminate flickering, I replaced 'system("cls")' with a better approach:
 This method significantly improved the animation, making it look cleaner and more fluid, just like a proper Digital Rain effect.
 
 
+### **Log 4: Replacing Magic Numbers & Theme Menu Implementation**
+
+In this stage of development, two key enhancements were made to improve code clarity, maintainability, and functionality.
+
+While functional, this approach made the code harder to understand and modify. To improve readability and future flexibility, this was replaced with clearly defined const char[] arrays:
+
+  - FULL_CHAR_SET[] – Includes numbers, letters, and symbols.
+  - SYMBOL_CHAR_SET[] – Contains symbols and special characters only, including currency signs.
+  - Binary theme (0 and 1) is handled separately using a simple ternary operation.
+    
+These changes eliminate "magic numbers" and allow each theme to use a dedicated and understandable character set.
+
+A theme selection menu was introduced to enhance user experience and provide visual variety. On program start, the following menu appears:
+
+Once a theme is selected, the screen is cleared and the corresponding rain animation begins.
+
+#### **ESC Key Integration**
+While the rain is running, users can press the ESC key to return to the main menu and choose a different theme. This was achieved using:
+
+ - _kbhit() to check for keypresses.
+ - _getch() to detect if the ESC key (27) is pressed
+ - break to exit the rain loop and return to the menu
+
+#### **Theme Descriptions**
+ - Theme 1 – Multicolor Random:
+Displays characters from FULL_CHAR_SET using a mix of colors like green, red, blue, and yellow.
+
+ - Theme 2 – Matrix Symbols Only (Green):
+Uses only characters from SYMBOL_CHAR_SET, rendered in bright green for an authentic Matrix effect.
+
+ - Theme 3 – Binary (0 and 1):
+Renders only '0' and '1' in plain white, simulating a binary code stream.
+
+
+
 
 
