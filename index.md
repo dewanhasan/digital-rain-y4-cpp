@@ -55,13 +55,13 @@ By adopting modern C++ features such as modular design, efficient console manipu
 
 ### **Log 3: Fixing Flickeing Screen**
 
-After implementing the 'system("cls");' to the system, I noticed that even though it clears the screen and prevents stacking, but the screen keeps flickering as it is clearing the screen every 2 seconds, Which is really not ideal for the animation.
+After implementing the `system("cls");` to the system, I noticed that even though it clears the screen and prevents stacking, but the screen keeps flickering as it is clearing the screen every 2 seconds, Which is really not ideal for the animation.
 
-To eliminate flickering, I replaced 'system("cls")' with a better approach:
+To eliminate flickering, I replaced `system("cls")` with a better approach:
 
    - Clearing only the previous position of each falling character instead of refreshing the entire screen.
-   - Using 'GotoXY(x, y-1)' to move the cursor back and print a space (" ") before moving the raindrop down.
-   - Clearing only the bottom row '(height - 1)' to prevent characters from stacking up at the bottom.
+   - Using `GotoXY(x, y-1)` to move the cursor back and print a space (" ") before moving the raindrop down.
+   - Clearing only the bottom row `(height - 1)` to prevent characters from stacking up at the bottom.
 
 This method significantly improved the animation, making it look cleaner and more fluid, just like a proper Digital Rain effect.
 
