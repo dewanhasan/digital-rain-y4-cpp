@@ -81,7 +81,7 @@ These changes eliminate "magic numbers" and allow each theme to use a dedicated 
 
 A theme selection menu was introduced to enhance user experience and provide visual variety. On program start, the following menu appears:
 
-<img src="https://github.com/dewanhasan/digital-rain-y4-cpp/blob/main/docs/assets/images/Log4a.png?raw=true" width="400" height="300">
+<img src="https://github.com/dewanhasan/digital-rain-y4-cpp/blob/main/docs/assets/images/Log4a.png?raw=true" width="600" height="400">
 
 Once a theme is selected, the screen is cleared and the corresponding rain animation begins.
 
@@ -91,7 +91,7 @@ While the rain is running, users can press the ESC key to return to the main men
  - _kbhit() to check for keypresses.
  - _getch() to detect if the ESC key (27) is pressed
  - break to exit the rain loop and return to the menu
-<img src="https://github.com/dewanhasan/digital-rain-y4-cpp/blob/main/docs/assets/images/Log4c.png?raw=true" width="400" height="400">
+<img src="https://github.com/dewanhasan/digital-rain-y4-cpp/blob/main/docs/assets/images/Log4c.png?raw=true" width="600" height="400">
 
 **Reference:** ChatGPT was used to help explore and implement the ESC key input logic. Available: https://chatgpt.com/
 
