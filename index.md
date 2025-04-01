@@ -109,6 +109,20 @@ Renders only '0' and '1' in plain white, simulating a binary code stream.
 
 ## **Algorithm**
 
+### **Raindrop Falling Animation Logic:**
+
+This algorithm continuously updates each raindrop’s position, simulates its fall, and handles its drawing and erasing.
+
+<img src="https://github.com/dewanhasan/digital-rain-y4-cpp/blob/main/docs/assets/images/AlgorithmsA.png?raw=true" width="600" height="400">
+
+The first for loop, the loop goes through every RainDrop object in the rainDrops vector. Each RainDrop represents a vertical stream of falling characters. `rainDrop.get()` returns a std::vector<RainElement>, which contains the coordinates (x, y) and the character c that needs to be displayed. The elements variable holds these for the current drop, which could be multiple characters (depending on the drop's size).
+
+In the second for loop, the loop is used to erase the previous character shown on the screen. `GotoXY(x, y-1)` moves the cursor to the previous Y position of the character. `std::cout << " "` prints a space to effectively clear the old character from the screen. It prevents the screen from looking cluttered or leaving behind character trails.
+
+`rainDrop.fall()` moves the drop down by increasing its y value. After falling, `get()` is called again to retrieve the updated positions and characters that should now be rendered on screen.
+
+The third for loop then draws the character in its new position. Then the cursor is moved to the updated coordinates using `GotoXY()`.
+
 ## **Problem Solving**
 
 ## **Modern C++ Insight & Reflection**
