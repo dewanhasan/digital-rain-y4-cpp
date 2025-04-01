@@ -132,6 +132,17 @@ This function returns a list of characters (RainElements) making up the vertical
 
 ## **Problem Solving**
 
+Throughout the development of the Digital Rain animation project, several technical problems were encountered and addressed. This section outlines the key problems and the solutions implemented to enhance performance, readability, and user experience.
+
+### **Flickering Console Screen:**
+
+**Problem:**
+Initially, the screen was being cleared using system("cls") for every frame of the animation. This caused severe flickering due to the constant redrawing of the entire console screen.
+
+**Solution:**
+To eliminate flickering, the use of system("cls") inside the animation loop was removed and instead used a smarter approach:
+
+
 ## **Modern C++ Insight & Reflection**
 
 
