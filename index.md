@@ -125,7 +125,7 @@ The third for loop then draws the character in its new position. Then the cursor
 
 ### **Generating Rain Characters:**
 
-<img src="https://github.com/dewanhasan/digital-rain-y4-cpp/blob/main/docs/assets/images/AlgorithmsB.png?raw=true" width="600" height="400">
+<img src="https://github.com/dewanhasan/digital-rain-y4-cpp/blob/main/docs/assets/images/AlgorithmsB.png?raw=true" width="750" height="400">
 
 This function returns a list of characters (RainElements) making up the vertical line of a raindrop. `getRandomChar()` is called to fetch the actual symbol, based on the currently selected theme. `(y - i + 25) % 25` allows wrapping characters vertically so drops loop at the bottom.
 
