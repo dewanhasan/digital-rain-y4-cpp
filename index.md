@@ -159,7 +159,16 @@ Magic numbers were replaced with descriptive and maintainable constants:
 
 These sets made the character output more controllable and easily extendable.
 
+### **Switch themes during runtime:**
 
+**Problem:**
+Once a theme was chosen, the only way to change it was to terminate and restart the program.
+
+**Solution:**
+ESC key functionality was implemented using `_kbhit()` and `_getch()` from `<conio.h>`.
+
+- When ESC key(ASCII 27) is pressed during animation, it breaks the rain loop and returns to the menu.
+- This allows seamless theme switching without restarting the program.
 
 
 
