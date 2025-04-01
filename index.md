@@ -142,6 +142,28 @@ Initially, the screen was being cleared using system("cls") for every frame of t
 **Solution:**
 To eliminate flickering, the use of system("cls") inside the animation loop was removed and instead used a smarter approach:
 
+- Only the previous position of each character was cleared `(GotoXY(x, y - 1)` followed by printing a space).
+- Only the bottom row was cleared completely to prevent character stacking.
+- This method provided smooth animation while keeping the screen visually clean.
+
+### **Magic Numbers in Character Generation:**
+
+**Problem:**
+The initial version used raw ASCII values (magic numbers) such as static_cast<char>((rand() % (126 - 33 + 1)) + 33) to generate characters. This reduced code clarity and made it difficult to control which characters appeared.
+
+**Solution:**
+Magic numbers were replaced with descriptive and maintainable constants:
+
+- `FULL_CHAR_SET[]` Contains a full set of alphanumeric and symbolic characters.
+- `SYMBOL_CHAR_SET[]` Used exclusively in the Matrix theme, consisting only of symbols.
+
+These sets made the character output more controllable and easily extendable.
+
+
+
+
+
+
 
 ## **Modern C++ Insight & Reflection**
 
