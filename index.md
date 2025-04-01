@@ -176,6 +176,12 @@ ESC key functionality was implemented using `_kbhit()` and `_getch()` from `<con
 
 ## **Modern C++ Insight & Reflection**
 
+Throughout the development of the Digital Rain project, several modern C++ practices were explored and applied. This not only contributed to a more efficient and maintainable codebase but also provided valuable learning opportunities in real-world application design.
+
+
+
+
+
 
 
 
