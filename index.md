@@ -121,7 +121,14 @@ In the second for loop, the loop is used to erase the previous character shown o
 
 `rainDrop.fall()` moves the drop down by increasing its y value. After falling, `get()` is called again to retrieve the updated positions and characters that should now be rendered on screen.
 
-The third for loop then draws the character in its new position. Then the cursor is moved to the updated coordinates using `GotoXY()`.
+The third for loop then draws the character in its new position. Then the cursor is moved to the updated coordinates using `GotoXY()`. 
+
+### **Generating Rain Characters:**
+
+<img src="https://github.com/dewanhasan/digital-rain-y4-cpp/blob/main/docs/assets/images/AlgorithmsB.png?raw=true" width="600" height="400">
+
+This function returns a list of characters (RainElements) making up the vertical line of a raindrop. `getRandomChar()` is called to fetch the actual symbol, based on the currently selected theme. `(y - i + 25) % 25` allows wrapping characters vertically so drops loop at the bottom.
+
 
 ## **Problem Solving**
 
