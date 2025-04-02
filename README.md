@@ -1,29 +1,18 @@
----
-layout: post
-title: A Project in Modern C++
-tags: cpp coding project
-categories: demo
----
+## **Digital Rain Project**
 
-This is my first paragraph...
+This project simulates a Matrix-style digital rain effect in the console using modern C++. It features animated falling characters, user-selectable themes (Multicolor, Matrix Green, Binary), and interactive keyboard controls (like ESC to return to the menu). The code is written with a focus on clarity, modular design, and interactive visual output.
 
-## This is a Heading
+**How to Run the Project:**
 
-This is a paragraph. Add an empty line to start a new paragraph.
+Upon launching the program, the user is presented with a menu to choose from three visual themes.
+- Press '1' to activate Theme 1 – Multicolor Rain.
+- Press '2' to activate Theme 2 – Matrix Symbols (Green)
+- Press '3' to activate Theme 3 – Binary Rain (0s and 1s)
 
-Font can be *Italic* or **Bold**.
+Press 'ESC' key to return to the Menu when its running.
 
-Code can be highlighted with 'backticks'.
 
-Hyperlinks look like this: [GitHub Help](https://help.github.com/).
-
-A bullet list:
-
-- vectors
-- algorithms
-- iterators
-
-You can add an impage that has been uploaded to the repository in a /docs/assets/images folder.
+Below is a GIF showcasing Theme 1 (Multicolor Rain) in action, demonstrating the vibrant and dynamic character animation of the program.
 
 <img src="https://github.com/dewanhasan/digital-rain-y4-cpp/blob/main/docs/assets/images/GIFDigitalRain.gif?raw=true" width="500" height="400" />
 
