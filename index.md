@@ -178,7 +178,7 @@ ESC key functionality was implemented using `_kbhit()` and `_getch()` from `<con
 
 Throughout the development of the Digital Rain project, several modern C++ practices were explored and applied. This contributed to a more efficient and maintainable codebase.
 
-By replacing hardcoded "magic numbers" with constants and using libraries like <vector>, <chrono>, and <random>, the code became more readable, reusable, and flexible for future changes or upgrades.
+By replacing hardcoded "magic numbers" with constants and using libraries like **vector, chrono, and random,** the code became more readable, reusable, and flexible for future changes or upgrades.
 
 The introduction of real-time keyboard input handling (such as detecting the ESC key) and smoother animation logic (instead of repeatedly clearing the screen) shows how C++ can be used to create interactive and user-friendly console applications, not just for algorithmic logic, but also for live system feedback and visual effects.
 
