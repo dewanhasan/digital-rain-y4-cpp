@@ -19,7 +19,7 @@ In my initial attempt at the Digital Rain simulation, I created a simple C++ pro
 
 ### **Log 2: Structuring the Digital Rain Simulation**
 
-In this iteration, we restructured the Digital Rain simulation to follow modern C++ principles, ensuring modularity, maintainability, and efficiency. The project now consists of multiple components, each handling a specific aspect of the simulation:
+In this iteration, the Digital Rain simulation was re-structured to follow modern C++ principles, ensuring modularity, maintainability, and efficiency. The project now consists of multiple components, each handling a specific aspect of the simulation:
 
 1. DigitalRain Class
    - Manages the **overall simulation**, handling multiple rain streams and rendering them in the console.
