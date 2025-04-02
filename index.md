@@ -130,6 +130,8 @@ The third for loop then draws the character in its new position. Then the cursor
 This function returns a list of characters (RainElements) making up the vertical line of a raindrop. `getRandomChar()` is called to fetch the actual symbol, based on the currently selected theme. `(y - i + 25) % 25` allows wrapping characters vertically so drops loop at the bottom.
 
 
+
+
 ## **Problem Solving**
 
 Throughout the development of the Digital Rain animation project, several technical problems were encountered and addressed. This section outlines the key problems and the solutions implemented to enhance performance, readability, and user experience.
