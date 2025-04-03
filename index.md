@@ -4,7 +4,6 @@ id: G00410156
 ---
 
 
-## **Introduction**
 
 This project aims to recreate the Matrix-style digital rain effect in a modern C++ console application. Using object-oriented programming (OOP), the simulation is structured into modular components: DigitalRain controls the animation, while RainDrop manages individual falling elements. The simulation features smooth animations, randomized movement, and scalable design, utilizing multi-threading and efficient console rendering. This documentation provides insights into the implementation, functionality, and potential improvements.
 
